@@ -46,7 +46,7 @@ class MusicControls(discord.ui.View):
             return await interaction.response.send_message("The queue is empty.", ephemeral=True)
         
         queue = SONG_QUEUES[guild_id_str]
-        queue_str = "\n".join([f"{i + 1}. {title}" for i, (_, title) in enumerate(queue)])
+        queue_str = "\n".join([f"{i + 1}. {title}" for i, (_, title, _) in enumerate(queue)])
         await interaction.response.send_message(f"Current Queue:\n{queue_str}", ephemeral=True)
     @discord.ui.button(label="Pause", style=discord.ButtonStyle.secondary, custom_id="music_pause")
     async def pause_button(self, interaction: discord.Interaction, button: discord.ui.Button):
