@@ -25,12 +25,12 @@
 ## 📂 Project Structure
 
 battybot/
-├── bot.py # Main entry point
-├── controls.py # Music and command controls
-├── state.py # Tracks playback and queue states
-├── ffmpeg # FFmpeg binary or configs
-├── README.md # Project overview
-└── pycache/ # Python bytecode cache
+├── bot.py # Main entry point  
+├── controls.py # Music and command controls  
+├── state.py # Tracks playback and queue states  
+├── ffmpeg # FFmpeg binary or configs  
+├── README.md # Project overview  
+└── pycache/ # Python bytecode cache  
 
 ## ⚙️ Requirements
 
