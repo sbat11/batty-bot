@@ -24,7 +24,7 @@
 
 ## 📂 Project Structure
 
-battybot/
+battybot/  
 ├── bot.py # Main entry point   
 ├── controls.py # Music and command controls    
 ├── state.py # Tracks playback and queue states    
